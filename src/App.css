@@ -1,0 +1,22 @@
+.app_wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+
+}
+.grid {
+    display: grid;
+
+    grid-template-areas: 
+    "header header header"
+    "navbar profile profile";
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 0px;
+}
+
+.content {
+    background-color: #2f4f4f;
+
+}
+

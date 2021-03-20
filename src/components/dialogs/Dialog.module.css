@@ -1,0 +1,25 @@
+.dialog {
+    position: relative;
+    color: #fff;
+    border-bottom: 1px solid #ffd700;
+    padding-top: 4px;
+    padding-right: 4px;
+    margin-top: 4px;
+    text-align: end;
+}
+
+.dialog_link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.active {
+    color: #ffd700;
+}
+
+.image {
+    width: 40px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}

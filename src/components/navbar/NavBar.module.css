@@ -1,0 +1,19 @@
+.navBar {
+    grid-area: navbar;
+    background-color: #2f4f4f;
+    border-right: #ffd700 solid 2px;
+}
+
+.item {
+    list-style: none;
+    color: #adff2f;
+}
+
+.item .active {
+    color: red;
+}
+
+.item__link {
+    text-decoration: none;
+    color: #adff2f;
+}
